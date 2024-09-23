@@ -10,5 +10,5 @@ jobs:
         - name: step1
           run: echo "${{ github.head.ref }}"
         - run: echo "${{ github.base.ref }}"
-        - run: echo "${{ secrets.DEMO123 }}"
+        - run: echo "${{ secrets.DEMO }}"
         - run: echo added something
