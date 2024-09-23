@@ -12,3 +12,4 @@ jobs:
         - run: echo "${{ github.base_ref }}"
         - run: echo "${{ secrets.DEMO }}"
         - run: echo added something
+        - run: echo "${{ toJson(github) }}"
